@@ -13,9 +13,10 @@ This chapter starts off with an introduction to Spring Framework modules and its
 
 ## 1-2 Spring Framework modules
 Spring Framework consists of multiple modules that are grouped based on the application development features they address. The following table describes the different module groups in Spring Framework:
-|Module group|Description|
-|---|---:|
-|Core container|Contains modules that form the foundation of Spring Framework. The modules in this group provide Spring's DI feature and IoC container implementation.|
+
+Module group|Description
+--- | ---
+Core container | Contains modules that form the foundation of Spring Framework. The modules in this group provide Spring's DI feature and IoC container implementation.
 
 
 
