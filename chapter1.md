@@ -22,6 +22,7 @@ DataAccess/Integration | Contains modules that simplify interaction with databas
 Web | contains modules that simplify developing web and portlet applications.
 Test | contains a single module that simplifies creating unit and integration tests.
 
+The above table shows that Spring covers every aspect of enterprise application development; you can use Sprng for developing web applications, accessing databases, managing transactions, creating unit and integration tests, and so on. The Spring Framework modules are designed in sucha a way that you _only_ need to include the modules that your application needs. For instance, to use Spring's DI feature in your application, you only need to include the moduels grouped under _Core Container_. As you progress through this book, you'll find details of some of the modules that are part of Spring, and examples that show how they are used in developing applications.
 
 
 
