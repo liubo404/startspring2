@@ -17,7 +17,10 @@ Spring Framework consists of multiple modules that are grouped based on the appl
 Module group|Description
 --- | ---
 Core container | Contains modules that form the foundation of Spring Framework. The modules in this group provide Spring's DI feature and IoC container implementation.
-
+AOP and instrumentation | Contains modules that support AOP and class instrumentation.
+DataAccess/Integration | Contains modules that simplify interaction with databases and messaging providers. This module group also contains modules that support programmtic and declarative transaction management, and object/XML mapping implementations, like JAXB and Castor.
+Web | contains modules that simplify developing web and portlet applications.
+Test | contains a single module that simplifies creating unit and integration tests.
 
 
 
