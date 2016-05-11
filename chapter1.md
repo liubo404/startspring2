@@ -37,4 +37,32 @@ Now, that you have some basic idea  about the areas of application development c
 ## 1-3 Spring IoC container
 A Java application consists of objects that interact with each other to provide applicaton behavior. The objects with which an object interacts are referred to as its _dependencies_. For instance, if an object X interacts with object Y and Z, then Y and Z are dependencies of object X. DI is a design pattern in which the dependencies of an object are typically specified as arguments to its constructor and setter methods. And, these dependencies are injected into the object when it's created.
 
+In a Spring application, Spring IoC container (also referred to as Spring container) is responsebile for creating application objects and injecting their dependencies. The application objects that the Spring container creates and managers are refered as _beans_. As the Spring container is responsible for putting togather application objects, you don't need to implement design patterns, like Factory, Service Locator, and so on, to compose your application. DI is also referred to as Inversion of Control (IoC) because the responsibility of creating and injecting dependencies is _not_ with the application object but the Spring container.
+
+Let's say that the MyBank application (which is the name of our sample application) contains two objects, FixedDepositController and FixedDepositService. The following example listing shows that the FixedDepositController object depends on FiexDepositService object:
+**Example listing 1-1** FixedDepositController class
+```java
+public class FixedDepositController {
+	private FixedDepositService fixedDepositService;
+
+	public FixedDepositController(){
+		fixedDepositServcie = new FixedDepositServer();
+		}
+	public boolean submit(){
+		//-- save the fixed deposit details
+		fixedDepositService.sav(....);
+	}
+}
+```
+In the above exmaple listing, 
+
+
+
+
+
+
+
+
+
+
 
