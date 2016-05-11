@@ -25,7 +25,7 @@ Test | contains a single module that simplifies creating unit and integration te
 The above table shows that Spring covers every aspect of enterprise application development; you can use Sprng for developing web applications, accessing databases, managing transactions, creating unit and integration tests, and so on. The Spring Framework modules are designed in sucha a way that you _only_ need to include the modules that your application needs. For instance, to use Spring's DI feature in your application, you only need to include the moduels grouped under _Core Container_. As you progress through this book, you'll find details of some of the modules that are part of Spring, and examples that show how they are used in developing applications.
 Thw following figure shows the inter-dependencies of different modules of Spring:
 
-
+![Local Image](./img/f11.png)
 Figure 1-1 Spring modules inter-dependencies
 
 You can infer from the above figure that the moduels contained in the _Core container_ group are central to the Spring Framework, and other moduels depend on it. Equally important are the moduels conatined in the _AOP and instrumentation_ group because they porvide AOP features to other modules in the Spring Framework.
