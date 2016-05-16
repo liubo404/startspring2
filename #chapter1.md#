@@ -77,7 +77,7 @@ Spring container reads the configuration metadat (like the one shown in example 
 
 The configuration metadat can be supplied to Spring container via XML (as shown in example listing 1-3), Java annotations(refer chapter 6) and alseo through the Java code(refer chapter6).
 
-As the Spring container is responsible for creating and managing application objects, enterprise services(like trasaction managerment, security,remote access, and so on) can be transparently applied to the objects by the Spring container. The ability of the Spring container to enhanc the application objects with additional functionality makes it possible for you to model your application objects as simple Java objects (also referred to as _POJO_s or _Plan Old Java Objects_). Java classes corresponding to POJOs are referred to as _POJO classes_, which are nothing but Java classes that don't implement or extend framework-specific interfaces or classes. The enterprise services, like trans
+As the Spring container is responsible for creating and managing application objects, enterprise services(like trasaction managerment, security,remote access, and so on) can be transparently applied to the objects by the Spring container. The ability of the Spring container to enhanc the application objects with additional functionality makes it possible for you to model your application objects as simple Java objects (also referred to as _POJO_s or _Plan Old Java Objects_). Java classes corresponding to POJOs are referred to as _POJO classes_, which are nothing but Java classes that don't implement or extend framework-specific interfaces or classes. The enterprise services, like transaction management, security,remote access, and so on, required by these POJOs are transparently 
 
 
 
