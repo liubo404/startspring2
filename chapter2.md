@@ -52,3 +52,6 @@ The above figure shows that the FixedDepositService class is not directly depend
 
 As FixedDepositService depends on FixedDepositDao interface, you can support other databse interaction strategies in the future. Let's say that you decide to use iBATIS(now renamed to MyBatis) persistence framework for database interaction. You can use iBATIS without making any changes to FixedDepositService class by simply creating a new FixedDepositIbatisDao class that implements FixedDepositDao interface, and supplying an instance of FixedDepositIbatisDao to the FixedDepositService instance.
 
+So far we have seen that 'programming to interface' design approach results in loose coupling between a dependent class and its dependencies. Let's now look at how this design approach improves testability of the dependent classes.
+
+## Improved testability of dependent classes
