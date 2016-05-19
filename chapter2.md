@@ -41,11 +41,11 @@ We know that a Java interface defines a contrat to which the implementation clas
 
 As it is a good design practice to 'program to interfaces' thant to 'program to classes', the following class diagram shows that it is good design if ABean class depends on BBean interface and _not_ on BBeanImpl class that implements BBean interface:
 
-[f21](.img/f21.png)
+![f21](.img/f21.png)
 **Figure 2-1** - 'program to interfaces' is good design practice than 'program to class'
 
 The following class diagram shows how FixedDepositService class can make use of 'programming to interfaces' design approach to easily switch the strategy used for database interaction:
-[f22](.img/f22.png)
+![f22](.img/f22.png)
 **Figure 2-2** -- The FixedDepositService depends on FixedDepositDao interface, which is implemented by FixedDepositJdbcDao and FixedDepositHibernateDao classes.
 
 The above figure shows that the FixedDepositService class is not directly dependent on the FixedDepositJdbcDao or FixedDepositHibernateDao class. Instead, FixedDepositService dependson the FixedDepositDao interface (the dependency interface) implemented by FixedDepositJdbcDao and FixedDepositHibernateDao classes. Now, depending on whether you want to use plain JDBC or Hibernate ORM framework, you supply an instance of FixedDepositJdbcDao or FixedDepositHibernateDao to the FixedDepositService instance.

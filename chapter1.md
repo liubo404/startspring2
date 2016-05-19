@@ -72,7 +72,7 @@ For a given application, information about application objects and their depende
 In the above example listing, each <bean> element defines an application object that is managed by the Spring container, and the <contructor-arg> element specifies that an instance of MyService is passed as an argument to MyController's constructor. The <bean> element is discussed in detail later in this chapter, and the <contructor-arg> element is discussed in chapter 2.
 
 Spring container reads the configuration metadat (like the one shown in example listing 1-3) of an application and creats the application objects defined by <bean> elements and injects their dependencies.Spring container makes use of _Java Reflection API_ (http://docs.oracle.com/javase/tutorial/reflect/index.html) to create applicaiton objects and inject their dependencies.The following figure summarizes how Spring container works:
-[Figure1-2](.img/f12.png)
+![Figure1-2](.img/f12.png)
 **Figure 1-2** Spring container reads application's configuration metadata and creates a fully configured application.
 
 The configuration metadat can be supplied to Spring container via XML (as shown in example listing 1-3), Java annotations(refer chapter 6) and alseo through the Java code(refer chapter6).
